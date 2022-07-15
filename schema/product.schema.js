@@ -10,8 +10,6 @@ const categoryId = Joi.number().integer();
 const limit = Joi.number().integer();
 const offset = Joi.number().integer();
 
-const price_min = Joi.number().integer();
-let price_max;
 
 const createProductSchema = Joi.object({
   name: name.required(),
